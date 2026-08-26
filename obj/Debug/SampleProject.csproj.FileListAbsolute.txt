@@ -1,0 +1,7 @@
+D:\GitHubTraining\SampleProject\SampleProject\bin\Debug\SampleProject.exe.config
+D:\GitHubTraining\SampleProject\SampleProject\bin\Debug\SampleProject.exe
+D:\GitHubTraining\SampleProject\SampleProject\bin\Debug\SampleProject.pdb
+D:\GitHubTraining\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.AssemblyReference.cache
+D:\GitHubTraining\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.CoreCompileInputs.cache
+D:\GitHubTraining\SampleProject\SampleProject\obj\Debug\SampleProject.exe
+D:\GitHubTraining\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
