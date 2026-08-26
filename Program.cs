@@ -35,6 +35,8 @@ namespace SampleProject
                         UpdateEmployee();
                         break;
 
+                        // Update the Employee
+
                     case "4":
                         Console.WriteLine("Application closed.");
                         return;
