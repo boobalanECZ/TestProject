@@ -32,6 +32,12 @@ namespace SampleProject
                         break;
 
                     case "3":
+                        UpdateEmployee();
+                        break;
+
+                        // Update the Employee
+
+                    case "4":
                         Console.WriteLine("Application closed.");
                         return;
 
@@ -93,6 +99,39 @@ namespace SampleProject
             {
                 employee.DisplayEmployee();
             }
+
+            Pause();
+        }
+
+        static void UpdateEmployee()
+        {
+            Console.Clear();
+
+            Console.WriteLine("===== Update Employee =====");
+
+            Console.Write("Enter Employee ID: ");
+            int employeeId = Convert.ToInt32(Console.ReadLine());
+
+            Employee employee = employees.Find(e => e.EmployeeId == employeeId);
+
+            if (employee == null)
+            {
+                Console.WriteLine("Employee not found.");
+                Pause();
+                return;
+            }
+
+            Console.Write("Enter Employee Name: ");
+            employee.EmployeeName = Console.ReadLine();
+
+            Console.Write("Enter Department: ");
+            employee.Department = Console.ReadLine();
+
+            Console.Write("Enter Salary: ");
+            employee.Salary = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine();
+            Console.WriteLine("Employee updated successfully.");
 
             Pause();
         }
